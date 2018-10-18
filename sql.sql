@@ -62,3 +62,8 @@ CREATE TABLE `nodejs`.`orders` (
     `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , 
     `updated_at` TIMESTAMP NOT NULL , 
     PRIMARY KEY (`id`)) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+    
+CREATE TABLE `nodejs`.`roles` ( 
+    `name` TINYTEXT NULL , 
+    `display_name` TINYTEXT NULL)
